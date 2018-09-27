@@ -1,0 +1,48 @@
+module exports = Terrain
+
+function Terrain (data) {
+  data = data || {}
+  this.color = color.data || terrainColor()
+  this.x = 1500
+  this.y = 1500
+  this.element = document.createElement('div')
+  Object.assign(this.element.style, {
+    width: '3000px',
+    height: '3000px',
+    position: 'absolute'
+//    top: '0px',
+//    left: '0px',
+//GREEN
+    backgroundColor: '#3CBC3C'
+  })
+  document.body.appendChild(this.element)
+}
+terrainColor(data, speed) {
+  Terrain.prototype.update = function (speed) {
+    data = data || {}
+    you.x = data.color || you.x
+    you.y = data.color || you.y
+    Object.assign(this.element.style, {
+//BLACK
+      if ((color.data === '#000000'), function (e) {
+        const speed = new Speed;
+        speed = 8;
+      }),
+//BROWN
+      if ((color.data === '#653E1D'), function (e) {
+        const speed = new Speed;
+        speed = 12;
+      }),
+//GREEN
+      if ((color.data === '#3CBC3C'), function (e) {
+        const speed = new Speed;
+        speed = 16;
+      }),
+//BLUE
+      if ((color.data === '#0000CD'), function (e) {
+        const speed = new Speed;
+        speed = 0;
+      })
+    })
+  }
+}
